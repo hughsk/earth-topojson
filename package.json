@@ -1,0 +1,36 @@
+{
+  "name": "earth-topojson",
+  "version": "1.0.0",
+  "description": "TopoJSON files of the Earth sourced from Natural Earth",
+  "main": "110m.json",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "node build"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "devDependencies": {
+    "earth-shapefiles": "^2.0.0",
+    "shapefile": "^0.3.0",
+    "topojson": "^1.6.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/earth-topojson.git"
+  },
+  "keywords": [
+    "earth",
+    "map",
+    "topojson",
+    "data",
+    "world",
+    "planet"
+  ],
+  "homepage": "https://github.com/hughsk/earth-topojson",
+  "bugs": {
+    "url": "https://github.com/hughsk/earth-topojson/issues"
+  }
+}
